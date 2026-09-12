@@ -1,0 +1,11 @@
+WN	9
+UA	7
+DL	7
+OO	4
+MQ	3
+AS	3
+AA	3
+YX	2
+B6	2
+OH	1
+NK	1
