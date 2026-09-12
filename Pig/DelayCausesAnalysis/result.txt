@@ -1,0 +1,5 @@
+Late Aircraft Delay	61422.0
+Carrier Delay	48709.0
+NAS Delay	30271.0
+Weather Delay	10831.0
+Security Delay	88.0
