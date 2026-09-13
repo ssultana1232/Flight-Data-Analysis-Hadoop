@@ -22,7 +22,7 @@ This project uses:
 
 The project uses a **2024 Flight Data** CSV dataset.
 
-Dataset Source:[Flight Delay Dataset — 2024](https://www.kaggle.com/datasets/hrishitpatil/flight-data-2024/data?select=flight_data_2024_sample.csv)
+Dataset Source: [Flight Delay Dataset — 2024](https://www.kaggle.com/datasets/hrishitpatil/flight-data-2024/data?select=flight_data_2024_sample.csv)
 
 The dataset contains information about:
 
