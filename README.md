@@ -4,7 +4,6 @@
 
 This project focuses on analyzing 2024 flight data using Apache Hadoop, HDFS, MapReduce, and Apache Pig. The main goal is to process flight records and extract useful information about airline operations, delays, cancellations, diversions, and delay causes.
 
----
 
 ## Problem Statement
 
@@ -18,7 +17,6 @@ This project uses:
 * MapReduce for data processing
 * Apache Pig for data analysis
 
----
 
 ## Dataset
 
@@ -61,7 +59,6 @@ The dataset contains information about:
 | `security_delay`      | Security-related delay           |
 | `late_aircraft_delay` | Delay caused by late aircraft    |
 
----
 
 ## Technologies Used
 
@@ -74,7 +71,7 @@ The dataset contains information about:
 * Git
 * GitHub
 
----
+
 
 # MapReduce Analysis
 
@@ -104,7 +101,6 @@ G4      172
 HA      95
 ```
 
----
 
 ## 2. Average Departure Delay
 
@@ -112,7 +108,6 @@ This MapReduce program calculates the average departure delay from the flight re
 
 The analysis helps identify the overall departure delay pattern in the dataset.
 
----
 
 ## 3. Average Departure Delay by Airline
 
@@ -120,7 +115,6 @@ This analysis calculates the average departure delay for each airline.
 
 It helps compare the departure delay performance of different airlines.
 
----
 
 # Apache Pig Analysis
 
@@ -132,7 +126,6 @@ This analysis calculates the total number of flights operated by each airline.
 
 The result is sorted in descending order.
 
----
 
 ## 2. Cancelled Flights by Airline
 
@@ -158,7 +151,6 @@ B6      1
 HA      1
 ```
 
----
 
 ## 3. Diverted Flights by Airline
 
@@ -166,7 +158,6 @@ This analysis calculates the number of diverted flights for each airline.
 
 A diverted flight is a flight that does not reach its originally planned destination.
 
----
 
 ## 4. Average Delay by Airline
 
@@ -174,7 +165,6 @@ This analysis calculates the average departure delay for each airline.
 
 The results help compare the average delay performance among different airlines.
 
----
 
 ## 5. Delay Causes Analysis
 
@@ -200,7 +190,6 @@ Security Delay          88.0
 
 The result shows that **Late Aircraft Delay** contributed the highest total delay time in the analyzed dataset.
 
----
 
 # Project Structure
 
@@ -262,7 +251,6 @@ Flight-Data-Analysis-Hadoop
     └── Pig5_DelayCausesAnalysis.txt
 ```
 
----
 
 # HDFS Data Processing
 
@@ -274,7 +262,6 @@ The flight dataset was uploaded to HDFS using the following path:
 
 The MapReduce and Pig programs process the data stored in HDFS and generate analysis results.
 
----
 
 # Conclusion
 
