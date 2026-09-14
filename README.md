@@ -1,4 +1,4 @@
-# Flight Data Analysis using Apache Hadoop, MapReduce and Pig
+# Flight Delay Data Analysis using Apache Hadoop, MapReduce and Pig
 
 ## University Project for Big Data Analytics
 
